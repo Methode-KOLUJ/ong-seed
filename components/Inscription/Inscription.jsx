@@ -177,7 +177,7 @@ export default function Inscription() {
                       ? "border-red-500 bg-red-50"
                       : "border-gray-300 hover:border-gray-400"
                   }`}
-                  placeholder="Votre nom ou le nom de votre entreprise"
+                  
                 />
                 {errors.nom && (
                   <p className="mt-2 text-sm text-red-500">{errors.nom}</p>
@@ -203,7 +203,6 @@ export default function Inscription() {
                         ? "border-red-500 bg-red-50"
                         : "border-gray-300 hover:border-gray-400"
                     }`}
-                    placeholder="Votre numéro de téléphone"
                   />
                   {errors.phone && (
                     <p className="mt-2 text-sm text-red-500">{errors.phone}</p>
@@ -228,7 +227,7 @@ export default function Inscription() {
                         ? "border-red-500 bg-red-50"
                         : "border-gray-300 hover:border-gray-400"
                     }`}
-                    placeholder="Votre adresse email"
+                    
                   />
                   {errors.email && (
                     <p className="mt-2 text-sm text-red-500">{errors.email}</p>
@@ -329,3 +328,4 @@ export default function Inscription() {
     </div>
   );
 }
+
